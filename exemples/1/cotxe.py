@@ -11,12 +11,3 @@ class Cotxe:
 
     def stop(self):
         print(f"Cotxe {self.model} aturat")
-
-cotxe1 = Cotxe("Renault Megane", 2012, "verd", True)
-cotxe2 = Cotxe("Seat Toledo", 1987, "vermell", False)
-
-cotxe1.start()
-cotxe2.start()
-
-cotxe2.stop()
-cotxe1.stop()
