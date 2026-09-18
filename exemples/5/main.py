@@ -1,10 +1,14 @@
 from vehicles import Cotxe, Moto
 
-cotxe = Cotxe()
+cotxe = Cotxe("Cupra", "Raval", 5)
+print(cotxe)
+cotxe.mostra_seguretat()
 cotxe.start()
 cotxe.stop()
 
-moto = Moto()
+moto = Moto("Kawasaki", "Ninja")
+print(moto)
+moto.mostra_seguretat()
 moto.start()
 moto.stop()
 
